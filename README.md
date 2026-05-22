@@ -1,5 +1,7 @@
 # Claude Code Sandbox
-Author: Xavier VAN AUSLOOS La Donnée Intelligente
+Author: Xavier VAN AUSLOOS 
+La Donnée Intelligente
+
 Creation: 22 May 26
 
 A sandbox project for learning Claude Code, created as part of the [Claude Code training](https://verify.skilljar.com/c/dhg628knonny).
