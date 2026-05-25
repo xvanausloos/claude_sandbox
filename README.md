@@ -6,7 +6,7 @@ Creation: 22 May 26
 
 A sandbox project for learning Claude Code, created as part of the [Claude Code training](https://verify.skilljar.com/c/dhg628knonny).
 
-It contains two small Python scripts that interact with the Anthropic API to demonstrate multi-turn conversations.
+It contains Python scripts that interact with the Anthropic API to demonstrate multi-turn conversations, streaming, and prompt evaluation.
 
 ## Prerequisites
 
@@ -38,4 +38,16 @@ python main.py
 
 ```bash
 python chatbot.py
+```
+
+**Streaming demo** — sends a hardcoded question to Claude and streams the response token by token:
+
+```bash
+python chatbot_streaming.py
+```
+
+**Prompt evaluation dataset generator** — uses assistant prefilling and stop sequences to generate a JSON dataset of AWS-related tasks (Python, JSON, or Regex), then writes it to `dataset.json`:
+
+```bash
+python prompt_eval.py
 ```
