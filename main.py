@@ -4,7 +4,7 @@ from anthropic import Anthropic
 load_dotenv()
 
 client = Anthropic()
-model = "claude-sonnet-4-6"
+model = "claude-haiku-4-5"
 
 # Helpers functions 
 def add_user_message(messages, text):
